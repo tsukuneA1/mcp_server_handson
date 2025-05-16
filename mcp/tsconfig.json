@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": ".",  // カレントディレクトリ（main.ts がある場所）
+  },
+  "include": ["."],           // ← src にせず、現在のフォルダ
+  "exclude": ["dist"]
+}
